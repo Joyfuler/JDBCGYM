@@ -173,5 +173,11 @@ public class Gym_Member {
 				+ exp_date + ", login_id=" + loginData.getLogin_id() + ", login_pw=" + loginData.getLogin_pw() + ", 성별=" + loginData.getGender() + ", 연령=" + loginData.getAge()
 				+ ", 성함=" + loginData.getName() + ", trainer_num=" + trainer_num + ", charge_num=" + charge_num + "]";
 	}
-	
+
+	public String showMemberInfo(){
+		return "[멤버 번호=" + member_num + ", PT 횟수=" + pt_count + ", 등록일=" + reg_date + ", 만료일="
+				+ exp_date + ", 성별=" + loginData.getGender() + ", 연령=" + loginData.getAge()
+				+ ", 성함=" + loginData.getName() + ", trainer_num=" + trainer_num + ", charge_num=" + charge_num + "]";
+	}
+
 }

@@ -143,4 +143,10 @@ public class Trainer {
                 ", name=" + logindata.getName() +
                 '}';
     }
+
+    public String showTrainerInfo(){
+        return "트레이너 정보[" +
+        "트레이너명 :" + logindata.getName() + "\t성별: " + logindata.getGender() + "\t수상경력 :" + award
+        + "\t연령: " + logindata.getAge();
+    }
 }

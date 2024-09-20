@@ -89,7 +89,7 @@ public class JoinManager {
 
         // Lesson 받게 될 정보를 입력받음. (Gym에 회원가입하는 회원은 보통 Lesson을 받기 위한 가입일 것이므로)
         for (Trainer t : DAOManager.getInstance().gettDao().findAll()){
-            System.out.println(t.getTrainer_num() + "번: \t" + t.getName());
+            System.out.println(t.getTrainer_num() + "번: \t" + t.getName()+" 트레이너 님\t(" + t.getAward()+ ")");
         }
 
         ShowManager.getInstance().numberInputForm();

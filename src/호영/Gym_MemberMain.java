@@ -64,7 +64,7 @@ public class Gym_MemberMain {
     private void findAll() {
         System.out.println("현재 등록된 전체 멤버 목록을 출력합니다.");
         List<Gym_Member> mList = mDao.findAll();
-        mList.stream().forEach(x -> System.out.println(x));
+        mList.stream().forEach(x -> System.out.println(x.showMemberInfo()));
         System.out.println("현재 Gym 총 인원수: " + mList.size() + "명");
 
     }
@@ -80,7 +80,7 @@ public class Gym_MemberMain {
             if (method == 1) {
                 System.out.println("전체 트레이너를 출력합니다. 담당 변경을 원하는 트레이너 번호를 입력하세요. 현재 트레이너:" + tDao.findByIndex(toFindMember.getTrainer_num()).getName());
                 for (Trainer t : DAOManager.getInstance().gettDao().findAll()) {
-                    System.out.println(t);
+                    System.out.println(t.showTrainerInfo());
                 }
                 int select = Input.intScan();
                 toFindMember.setTrainer_num(select);
