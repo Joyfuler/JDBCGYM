@@ -2,17 +2,18 @@ GYM 프로젝트 (JDBC를 이용한 기본적인 CRUD /
 로그인과 로그아웃 / 회원가입 기능)
 =================
 
-# GYM 프로젝트 기획
+
+# 1. GYM 프로젝트 기획
 
 ![슬라이드1](https://github.com/user-attachments/assets/b1230b8c-20df-47ac-875f-11d968eb1fee)
 ![슬라이드2](https://github.com/user-attachments/assets/68d69914-081e-4c58-a849-8c1e08b91ff1)
 ![슬라이드3](https://github.com/user-attachments/assets/c57d3213-256a-43cd-96d1-1363df9f0f99)
 ![슬라이드4](https://github.com/user-attachments/assets/4529ed84-fa79-4ed5-b17b-a7a298752872)
 
-# GYM 프로젝트에 사용한 테이블 구조 (EXERD)
+# 2. GYM 프로젝트에 사용한 테이블 구조 (EXERD)
 ![git에올릴exerd](https://github.com/user-attachments/assets/ca3285e0-8dca-47b6-adf6-3869539a22a3)
 
-# GYM 프로젝트 발표 후 보고서
+# 3. GYM 프로젝트 발표 후 보고서
 ![박민국팀 GYM프로젝트 결과 보고서_2003](https://github.com/user-attachments/assets/313caec3-51b4-483d-ae14-9c657564cb84)
 ![박민국팀 GYM프로젝트 결과 보고서_2004](https://github.com/user-attachments/assets/c1d38237-108d-4bb5-a7fa-13d6b26f3609)
 ![박민국팀 GYM프로젝트 결과 보고서_2005](https://github.com/user-attachments/assets/3d7c6425-41e3-4403-b880-dd4eeedd4e89)
